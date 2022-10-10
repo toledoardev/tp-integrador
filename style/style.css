@@ -111,6 +111,6 @@ footer {
     }
 
     #form-container, #about-text, #send-button {
-        max-width: 25rem;
+        max-width: 20rem;
     }
   }
