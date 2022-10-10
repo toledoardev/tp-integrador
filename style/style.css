@@ -1,0 +1,116 @@
+#conference-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 44rem;
+    background-image: url("../images/ba1.jpg");
+    background-size: cover;
+}
+
+#conference-card {
+    max-height: 10rem;
+    max-width: 32rem;
+    text-align: right;
+    margin-right: 4rem;
+    margin-top: 4rem;
+}
+
+#carousel-image {
+    max-height: 40rem;
+}
+
+#btn-speaker {
+    border: 1px solid #f4fde6;
+    background-color: transparent;
+    width: 160px;
+    height: 40px;
+}
+
+#btn-speaker:hover {
+    background-color: #696969;
+}
+
+#btn-tickets {
+    border: none;
+    width: 160px;
+    height: 40px;
+    color: #f4fde6;
+    background-color: #29a744;
+}
+
+#cards-container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#speaker-card {
+    max-width: 18rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#place {
+    display: flex;
+    justify-content: center;
+}
+
+#btn-knowmore {
+    border: 1px solid #f4fde6;
+}
+
+#form-container {
+    display: block;
+    margin: auto;
+    max-width: 45rem;
+    max-height: 20rem;
+    padding: 0;    
+}
+
+#about-text {
+    margin: auto;
+    max-width: 45rem;
+    height: 8rem;
+}
+
+#send-button {
+    border: none;
+    width: 45rem;
+    color: #f4fde6;
+    background-color: #96c93e;
+}
+
+footer {
+    display: grid;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background: rgb(29,57,71);
+    background: linear-gradient(90deg, rgba(29,57,71,1) 0%, rgba(29,70,92,1) 35%, rgba(31,82,113,1) 100%);
+}
+
+@media (max-width: 900px) {
+    #conference-card {
+        max-height: 10rem;
+        max-width: 32rem;
+        text-align: right;
+        margin-right: 1rem;
+        margin-top: 4rem;    
+    }
+
+    #cards-container {
+        flex-direction: column;
+    }
+
+    #speaker-card {
+        margin-bottom: 2rem;
+    }
+
+    #place {
+        flex-direction: column;
+    }
+
+    #form-container, #about-text, #send-button {
+        max-width: 25rem;
+    }
+  }
