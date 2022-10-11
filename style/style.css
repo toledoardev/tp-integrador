@@ -115,6 +115,10 @@ footer {
     #speaker-card {
         margin-bottom: 2rem;
     }  
+    
+    #form-container, #about-text, #send-button {
+        max-width: 24rem;
+    }
 }
 
 @media (max-width: 760px) {
