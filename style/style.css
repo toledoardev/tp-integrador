@@ -123,6 +123,6 @@ footer {
 
 @media (max-width: 760px) {
     #form-container, #about-text, #send-button {
-        max-width: 26rem;
+        max-width: 24rem;
     }
 }
