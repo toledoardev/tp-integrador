@@ -117,12 +117,12 @@ footer {
     }  
     
     #form-container, #about-text, #send-button {
-        max-width: 24rem;
+        max-width: 30rem;
     }
 }
 
 @media (max-width: 760px) {
     #form-container, #about-text, #send-button {
-        max-width: 32rem;
+        max-width: 26rem;
     }
 }
