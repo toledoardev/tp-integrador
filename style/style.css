@@ -110,7 +110,6 @@ footer {
     }
   }
 
-
 @media (max-width: 760px) {
     #place {
         flex-direction: column;
