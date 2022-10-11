@@ -52,8 +52,17 @@
 }
 
 #place {
-    display: flex;
-    min-height: 10rem;
+    min-height: 24rem;
+}
+
+#place-image {
+    min-height: 24rem;
+    background-image: url("../images/honolulu.jpg");
+    background-size: cover;
+}
+
+#place-text {
+    min-height: 24rem;
 }
 
 #btn-knowmore {
@@ -90,13 +99,6 @@ footer {
 }
 
 
-@media (max-width: 960px) {
-    #place {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
 @media (max-width: 900px) { 
     #conference-card {
         max-height: 10rem;
@@ -117,6 +119,6 @@ footer {
 
 @media (max-width: 760px) {
     #form-container, #about-text, #send-button {
-        max-width: 20rem;
+        max-width: 32rem;
     }
 }
