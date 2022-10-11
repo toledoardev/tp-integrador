@@ -53,6 +53,7 @@
 
 #place {
     display: flex;
+    min-height: 10rem;
 }
 
 #btn-knowmore {
@@ -88,7 +89,15 @@ footer {
     background: linear-gradient(90deg, rgba(29,57,71,1) 0%, rgba(29,70,92,1) 35%, rgba(31,82,113,1) 100%);
 }
 
-@media (max-width: 900px) {
+
+@media (max-width: 960px) {
+    #place {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 900px) { 
     #conference-card {
         max-height: 10rem;
         max-width: 32rem;
@@ -103,17 +112,11 @@ footer {
 
     #speaker-card {
         margin-bottom: 2rem;
-    }
+    }  
+}
 
+@media (max-width: 760px) {
     #form-container, #about-text, #send-button {
         max-width: 20rem;
     }
-  }
-
-@media (max-width: 760px) {
-    #place {
-        flex-direction: column;
-        align-items: center;
-    }
-
 }
