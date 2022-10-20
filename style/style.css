@@ -18,13 +18,15 @@
 
 #btn-speaker {
     border: 1px solid #f4fde6;
-    background-color: transparent;
     width: 160px;
     height: 40px;
+    color: #f4fde6;
+    background-color: transparent;
 }
 
 #btn-speaker:hover {
-    background-color: #696969;
+    border: 1px solid #fff333;
+    color:  #fff333;
 }
 
 #btn-tickets {
@@ -33,6 +35,11 @@
     height: 40px;
     color: #f4fde6;
     background-color: #29a744;
+}
+
+#btn-tickets:hover {
+    color: #f2f5ee;
+    background-color: #36D057;
 }
 
 #cards-container {
@@ -64,6 +71,13 @@
 
 #btn-knowmore {
     border: 1px solid #f4fde6;
+    color: #f4fde6;
+    background-color: transparent;
+}
+
+#btn-knowmore:hover {
+    border: 1px solid #fff333;
+    color:  #fff333;
 }
 
 #form-container {
@@ -86,6 +100,24 @@
     color: #f4fde6;
     background-color: #96c93e;
 }
+
+#send-button:hover {
+    color: #f2f5ee;
+    background-color: #1E7DA0;
+}
+
+#btn-form-tickets {
+    border: none;
+    width: 100%;
+    color: #f4fde6;
+    background-color: #96c93e;
+}
+
+#btn-form-tickets:hover {
+    color: #f2f5ee;
+    background-color: #1E7DA0;
+}
+
 
 footer {
     display: grid;
@@ -117,16 +149,11 @@ footer {
         max-width: 28rem;
     }
 
-    #ticket {
-        display: grid;
-        place-items: center;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
 }
 
 @media (max-width: 760px) {
     #form-container, #about-text, #send-button {
         max-width: 24rem;
     }
+
 }
