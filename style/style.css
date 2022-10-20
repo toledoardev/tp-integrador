@@ -1,3 +1,4 @@
+
 /*----INDEX----*/
 
 #conference-container {
@@ -109,6 +110,7 @@
 }
 
 
+
 /*----TICKETS----*/
 
 .ticket-card {
@@ -119,16 +121,13 @@
 
 .ticket-card:hover {
     scale: 1.02;
+    box-shadow: 0.5rem 0.5rem 0.5rem darkgray;
 }
 
 #btn-amount {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     background-color: #A7DBFF;
-}
-
-#btn-amount:hover {
-
 }
 
 #btn-form-tickets {
@@ -145,9 +144,9 @@
 
 
 footer {
-    display: grid;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    min-height: 6rem;
     background: rgb(29,57,71);
     background: linear-gradient(90deg, rgba(29,57,71,1) 0%, rgba(29,70,92,1) 35%, rgba(31,82,113,1) 100%);
 }
