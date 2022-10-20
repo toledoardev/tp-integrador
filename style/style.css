@@ -1,3 +1,5 @@
+/*----INDEX----*/
+
 #conference-container {
     display: flex;
     align-items: center;
@@ -104,6 +106,19 @@
 #send-button:hover {
     color: #f2f5ee;
     background-color: #1E7DA0;
+}
+
+
+/*----TICKETS----*/
+
+.ticket-card {
+    border-radius: 0;
+    height: 13rem; 
+    max-width: 16rem; 
+}
+
+.ticket-card:hover {
+    scale: 1.02;
 }
 
 #btn-form-tickets {
