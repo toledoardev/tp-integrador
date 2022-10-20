@@ -121,6 +121,16 @@
     scale: 1.02;
 }
 
+#btn-amount {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #A7DBFF;
+}
+
+#btn-amount:hover {
+
+}
+
 #btn-form-tickets {
     border: none;
     width: 100%;
