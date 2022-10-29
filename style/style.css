@@ -50,6 +50,11 @@
     margin-right: 1rem;
 }
 
+.speaker-card:hover {
+    scale: 1.02;
+    box-shadow: 0.5rem 0.5rem 0.5rem darkgray;
+}
+
 .place {
     min-height: 24rem;
 }
