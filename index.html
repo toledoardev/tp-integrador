@@ -54,8 +54,8 @@
 
       <!-------CONFERENCE-SECTION-------->
       <section id="conference-section">
-        <div id="conference-container" class="container-fluid">
-          <div id="conference-card" class="ms-auto">
+        <div class="container-fluid conference-container">
+          <div class="conference-card ms-auto">
               <h2 class="text-light">Conf Bs As</h2>
               <p class="text-light text-wrap"> 
                   Bs As llega por primera vez a Argentina. Un evento para compartir 
@@ -81,9 +81,9 @@
         <p class="text-center">CONOCE A LOS</p>
         <h5 class="text-center">ORADORES</h5>
          
-        <div id="cards-container" class="container">
+        <div class="container d-flex justify-content-center align-items-center cards-container">
         
-          <div id="speaker-card" class="card">
+          <div class="card speaker-card">
             <img src="images/steve.jpg" class="card-img-top" alt="Steve Jobs image">
             <div class="card-body">
               <p class="card-text d-flex gap-1">
@@ -100,7 +100,7 @@
             </div>
           </div>
 
-          <div id="speaker-card" class="card">
+          <div class="card speaker-card">
             <img src="./images/bill.jpg" class="card-img-top" alt="Bill Gates image">
             <div class="card-body">
               <p class="card-text d-flex gap-1">
@@ -117,7 +117,7 @@
             </div>
           </div>
         
-          <div id="speaker-card" class="card">
+          <div class="card speaker-card">
             <img src="./images/ada.jpeg" class="card-img-top" alt="Ada Lovelace image">
             <div class="card-body">
               <p class="card-text d-flex gap-1">
@@ -140,11 +140,9 @@
       <!-------PLACE-SECTION-------->
       <section id="place-section"> 
         <div id="place" class="row m-0 p-0">
-            <div id="place-image" class="col-12 col-md-6 p-0">
+            <div class="col-12 col-md-6 p-0 place-image"></div>
 
-            </div>
-
-            <div id="place-text" class="col-12 col-md-6 bg-dark p-0">
+            <div class="col-12 col-md-6 bg-dark p-0 place-text">
               <h4 class="text-light mt-4 ms-3">Bs As - Octubre</h4>
               <p class="text-light ms-3">
                 Bs As es la provincia y localidad mas grande del estado de Argentina. En Estados Unidos,
@@ -168,7 +166,7 @@
           <p class="text-center">Anótate como orador para dar una charla ignite. Cuéntanos de que quieres hablar!</p>
         </div>
         
-        <div id="form-container" class="container">
+        <div class="container form-container">
           
           <div class="row mb-3" >
             <div class="col">
@@ -180,7 +178,7 @@
           </div>
 
           <div class="row" >
-            <textarea class="form-control" id="about-text" placeholder="Sobre qué quieres hablar?"></textarea>
+            <textarea class="form-control about-text" placeholder="Sobre qué quieres hablar?"></textarea>
           </div>
 
           <div class="mb-3">

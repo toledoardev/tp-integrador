@@ -1,7 +1,5 @@
-
 /*----INDEX----*/
-
-#conference-container {
+.conference-container {
     display: flex;
     align-items: center;
     margin-top: 2rem;
@@ -11,7 +9,7 @@
     background-size: cover;
 }
 
-#conference-card {
+.conference-card {
     max-height: 10rem;
     max-width: 32rem;
     text-align: right;
@@ -45,30 +43,24 @@
     background-color: #36D057;
 }
 
-#cards-container {
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#speaker-card {
+.speaker-card {
     max-width: 18rem;
+    margin-bottom: 1.5rem;
     margin-left: 1rem;
     margin-right: 1rem;
 }
 
-#place {
+.place {
     min-height: 24rem;
 }
 
-#place-image {
+.place-image {
     min-height: 24rem;
     background-image: url("../images/honolulu.jpg");
     background-size: cover;
 }
 
-#place-text {
+.place-text {
     min-height: 24rem;
 }
 
@@ -83,7 +75,7 @@
     color:  #fff333;
 }
 
-#form-container {
+.form-container {
     display: block;
     margin: auto;
     max-width: 45rem;
@@ -91,7 +83,7 @@
     padding: 0;    
 }
 
-#about-text {
+.about-text {
     margin: auto;
     max-width: 45rem;
     height: 8rem;
@@ -109,6 +101,13 @@
     background-color: #1E7DA0;
 }
 
+footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    min-height: 6rem;
+    background: rgb(29,57,71);
+    background: linear-gradient(90deg, rgba(29,57,71,1) 0%, rgba(29,70,92,1) 35%, rgba(31,82,113,1) 100%);
+}
 
 
 /*----TICKETS----*/
@@ -124,36 +123,35 @@
     box-shadow: 0.5rem 0.5rem 0.5rem darkgray;
 }
 
-#btn-amount {
+#btn-tickets-price {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     background-color: #A7DBFF;
 }
 
-#btn-form-tickets {
+#btn-tickets-erase, #btn-tickets-resume {
     border: none;
     width: 100%;
     color: #f4fde6;
     background-color: #96c93e;
 }
 
-#btn-form-tickets:hover {
+#btn-tickets-erase:hover {
+    color: #f2f5ee;
+    background-color: #1E7DA0;
+}
+
+#btn-tickets-resume:hover {
     color: #f2f5ee;
     background-color: #1E7DA0;
 }
 
 
-footer {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    min-height: 6rem;
-    background: rgb(29,57,71);
-    background: linear-gradient(90deg, rgba(29,57,71,1) 0%, rgba(29,70,92,1) 35%, rgba(31,82,113,1) 100%);
-}
 
+/*----MEDIA-QUERIES----*/
 
 @media (max-width: 900px) { 
-    #conference-card {
+    .conference-card {
         max-height: 10rem;
         max-width: 32rem;
         text-align: right;
@@ -161,22 +159,18 @@ footer {
         margin-top: 4rem;    
     }
 
-    #cards-container {
+    .cards-container {
         flex-direction: column;
     }
 
-    #speaker-card {
-        margin-bottom: 2rem;
-    }  
-    
-    #form-container, #about-text, #send-button {
+    .form-container, .about-text, #send-button {
         max-width: 28rem;
     }
 
 }
 
 @media (max-width: 760px) {
-    #form-container, #about-text, #send-button {
+    .form-container, .about-text, #send-button {
         max-width: 24rem;
     }
 
