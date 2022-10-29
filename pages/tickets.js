@@ -47,7 +47,8 @@ $(document).ready(function(){
             Swal.fire({
                 icon: "success",
                 title: "¡Excelente " + name + " " + surname + "!",
-                html: "¡Su compra ha sido realizada con éxito! <br> Los tickets serán enviados a " + email,
+                html: "¡Su compra ha sido realizada con éxito! <br> Los tickets serán enviados a <strong>" + email,
+                confirmButtonColor: "#36D057",
             })
 
         } 
@@ -55,6 +56,7 @@ $(document).ready(function(){
             icon: "error",
             title: "¡Algo ha salido mal!",
             text: "Debe completar todos los campos del formulario.",
+            confirmButtonColor: "#dd6b55",
           })
                
     });
