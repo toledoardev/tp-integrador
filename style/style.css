@@ -78,23 +78,9 @@
     color:  #fff333;
 }
 
-.form-container {
-    display: block;
-    margin: auto;
-    max-width: 45rem;
-    max-height: 20rem;
-    padding: 0;    
-}
-
-.about-text {
-    margin: auto;
-    max-width: 45rem;
-    height: 8rem;
-}
-
 #btn-send {
     border: none;
-    width: 45rem;
+    width: 100%;
     color: #f4fde6;
     background-color: #96c93e;
 }
@@ -166,15 +152,6 @@ footer {
         flex-direction: column;
     }
 
-    .form-container, .about-text, #btn-send {
-        max-width: 28rem;
-    }
-
 }
 
-@media (max-width: 760px) {
-    .form-container, .about-text, #btn-send {
-        max-width: 24rem;
-    }
 
-}

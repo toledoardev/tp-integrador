@@ -13,7 +13,6 @@
 <body>
     
     <header>
-
       <!------NAVBAR------>
       <nav class="navbar fixed-top navbar-expand-lg bg-dark">
           <div class="container-fluid" >
@@ -47,12 +46,10 @@
             </div>
           </div>
       </nav>
-
     </header>
 
 
     <main>
-
       <!-------CONFERENCE-SECTION-------->
       <section id="conference-section">
         <div class="container-fluid conference-container">
@@ -75,7 +72,6 @@
           </div>
         </div> 
       </section>
-
 
       <!-------CARDS-SECTION-------->
       <section id="speakers-section" class="mt-3 mb-3">  
@@ -158,38 +154,32 @@
         </div>
       </section>
 
-      <!-------FORM-SECTION-------->
-      <section id="form-section" class="mt-3">
+      <!------FORM-SECTION------>
+      <section class="container justify-content-center mt-3 mb-5" style="max-width: 48rem; max-height: 22rem;">
+        <form class="row g-3">
         
-        <div>
-          <p class="text-center">CONVIÉRTETE EN UN</p>
-          <h5 class="text-center">ORADOR</h5>
-          <p class="text-center">Anótate como orador para dar una charla ignite. Cuéntanos de que quieres hablar!</p>
-        </div>
-        
-        <div class="container form-container">
-          
-          <div class="row mb-3" >
-            <div class="col">
-              <input id="speaker-name" type="text" class="form-control" placeholder="Nombre">
-            </div>
-            <div class="col">
-              <input id="speaker-surname" type="text" class="form-control" placeholder="Apellido">
-            </div>
+          <div>
+            <p class="text-center">CONVIÉRTETE EN UN</p>
+            <h5 class="text-center">ORADOR</h5>
+            <p class="text-center">Anótate como orador para dar una charla ignite. Cuéntanos de que quieres hablar!</p>
           </div>
 
-          <div class="row" >
+          <div class="col col-md-6">
+            <input id="input-name" type="text" class="form-control" placeholder="Nombre">
+          </div>
+          <div class="col col-md-6">
+          <input id="input-surname" type="text" class="form-control" placeholder="Apellido">
+          </div>   
+        
+          <div class="col-12" >
             <textarea id="speaker-text" class="form-control about-text" placeholder="Sobre qué quieres hablar?"></textarea>
           </div>
 
-          <div class="mb-3">
-            <small class="text-muted">Recuerda incluir un título para la charla</small>
+          <div class="col-12">
+            <button id="btn-send" type="button" class="btn btn-success">Enviar</button>
           </div>
-
-          <button id="btn-send" type="submit" class="btn btn-success mb-3">Enviar</button>
         
-        </div>
-
+        </form>
       </section>
 
     </main>
